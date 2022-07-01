@@ -1,0 +1,48 @@
+html{
+    height: 100vh;
+    background-color: #219ebc;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+h3{
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+}
+textarea{
+    width: 32rem;
+    height: 7rem;
+    background-color: white;
+    margin: 2rem;
+    padding: .5rem;
+    border-radius: .3rem;
+    border: 5px double #023047;
+    color: gray;
+    font-size: 1rem;
+}
+textarea::placeholder{
+    color: gray;
+    font-size: 1rem;
+}
+#tags{
+    width: 40rem;
+    height: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tag{
+    background-color: #F4A261;
+    color: white;
+    border-radius: 3rem;
+    padding: .7rem 1.5rem;
+    margin: .3rem;
+}
+.tag.select{
+    background-color: #023047;
+}
