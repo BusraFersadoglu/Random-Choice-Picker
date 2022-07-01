@@ -1,5 +1,5 @@
-const textarea = document.getElementById("textarea")
-const tagsElement = document.getElementById("tags")
+const textarea = document.getElementById("textarea");
+const tagsElement = document.getElementById("tags");
 
 textarea.focus();
 
@@ -13,7 +13,7 @@ textarea.addEventListener("keyup", (e) => {
 
         randomSelect()
     }
-})
+});
 
 function createTags(input){
     const tags = input.split("-").filter(tag => tag.trim() !== "").map(tag => tag.trim())
